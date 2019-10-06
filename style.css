@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
 }
 .bg{
-    background-image: url("img/hp-hero-img.png") ;
+    background-image: url("hp-hero-img.png") ;
     background-size: 1440px;
 }
 /*header css*/
@@ -162,7 +162,7 @@ body{
 }
 /*program css*/
 .program-section{
-    background-image: url("img/programs-bg.svg");
+    background-image: url("programs-bg.svg");
     background-size: 1440px;
     background-repeat: no-repeat;
 }
