@@ -14,8 +14,7 @@ body{
     margin: 0 auto;
 }
 .bg{
-    background-image: url("hp-hero-img.png") ;
-    background-size: 1440px;
+    background: url("hp-hero-img.png") no-repeat center center;
 }
 /*header css*/
 .header{
@@ -24,12 +23,8 @@ body{
 .logo{
     padding: 28px 0 0 0;
 }
-.logo img{
-    width: 254px;
-    height: 40px;
-}
 .nav-bar{
-    margin: 38px 200px 0 100px;
+    padding: 38px 110px 0 110px;
     color: white;
 }
 .nav-bar ul{
@@ -673,9 +668,13 @@ form{
     flex-wrap: wrap;
     justify-content: center;
 }
-.brand-logo img{
-    width: 103px;
+.b-logo{
+    padding-right: 40px;
+    padding-bottom: 55px;
     height: 60px;
+}
+.b-logo:nth-child(7),.b-logo:nth-child(8),.b-logo:nth-child(9),.b-logo:nth-child(10){
+    padding-right: 70px;
 }
 /*footer css*/
 .footer-section{
