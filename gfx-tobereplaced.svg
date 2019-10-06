@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="546" viewBox="0 0 1660 546">
+    <defs>
+        <filter id="a" width="111.3%" height="121.8%" x="-5.6%" y="-10.9%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="13.951"/>
+        </filter>
+        <linearGradient id="b" x1="100%" x2="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#55D2FF"/>
+            <stop offset="100%" stop-color="#3DA0DB"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 1)">
+        <path fill="#DA1460" d="M0 0h1660v544H0z"/>
+        <rect width="744" height="384" x="471" y="80" fill="#1E2631" filter="url(#a)" opacity=".597" rx="5"/>
+        <path fill="url(#b)" d="M460 64h768v384H460z"/>
+        <path fill="#321394" d="M843 0h817v544H843z" opacity=".3"/>
+        <path stroke="#FFF" stroke-linecap="square" d="M270 257h1118.523M843 0v543.645" opacity=".382"/>
+        <text fill="#FFF" font-family="Gibson" font-size="18" letter-spacing=".45">
+            <tspan x="318.544" y="148">Uncertainty</tspan>
+        </text>
+        <text fill="#FFF" font-family="Gibson-SemiBold, Gibson" font-size="22" font-weight="500" letter-spacing=".33">
+            <tspan x="598.25" y="163">Starting up</tspan>
+        </text>
+        <text fill="#FFF" font-family="Gibson-SemiBold, Gibson" font-size="22" font-weight="500" letter-spacing=".33">
+            <tspan x="970.248" y="163">Blitzscaling</tspan>
+        </text>
+        <text fill="#FFF" font-family="Gibson-SemiBold, Gibson" font-size="22" font-weight="500" letter-spacing=".33">
+            <tspan x="602.243" y="343">Scaling up</tspan>
+        </text>
+        <text fill="#FFF" font-family="Gibson-SemiBold, Gibson" font-size="22" font-weight="500" letter-spacing=".33">
+            <tspan x="968.873" y="343">Fast Scaling</tspan>
+        </text>
+        <text fill="#FFF" font-family="Gibson" font-size="18" letter-spacing=".45">
+            <tspan x="337.948" y="348">Certainty</tspan>
+        </text>
+    </g>
+</svg>
