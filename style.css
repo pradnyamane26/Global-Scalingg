@@ -14,7 +14,9 @@ body{
     margin: 0 auto;
 }
 .bg{
-    background: url("hp-hero-img.png") no-repeat center center;
+    background: url("hp-hero-img.png") no-repeat;
+    background-size: 100%;
+    object-fit: contain;
 }
 /*header css*/
 .header{
@@ -24,7 +26,7 @@ body{
     padding: 28px 0 0 0;
 }
 .nav-bar{
-    padding: 38px 110px 0 110px;
+    padding: 38px 180px 0 110px;
     color: white;
 }
 .nav-bar ul{
@@ -71,14 +73,14 @@ body{
 }
 /*hero css*/
 .hero{
-    padding: 110px 600px 200px 310px;
+    padding: 165px 600px 155px 390px;
 }
 .top-intro {
     margin-bottom: 8px;
     text-transform: uppercase;
     width: 640px;
     font-family:'Open Sans', sans-serif;
-    font-size: 23px;
+    font-size: 17px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -88,9 +90,9 @@ body{
 }
 .Main-title {
     margin-bottom: 19px;
-    width: 700px;
+    width: 569px;
     font-family:'Open Sans', sans-serif;
-    font-size: 61px;
+    font-size: 47px;
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
@@ -100,9 +102,9 @@ body{
 }
 .subtitle {
     margin-bottom: 30px;
-    width: 640px;
+    width: 528px;
     font-family:'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -115,13 +117,13 @@ body{
 }
 .cta-body {
     cursor: pointer;
-    margin-right: 46px;
-    width: 256px;
-    height: 61px;
+    margin-right: 35px;
+    width: 200px;
+    height: 55px;
     border: solid 2px #318bc0;
     background-color: Transparent;
     font-family:'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -141,12 +143,12 @@ body{
 }
 .cta-btn {
     cursor: pointer;
-    width: 256px;
-    height: 61px;
+    width: 200px;
+    height: 55px;
     background-color: #328cc1;
     border: none;
     font-family:'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -158,7 +160,8 @@ body{
 /*program css*/
 .program-section{
     background-image: url("programs-bg.svg");
-    background-size: 1440px;
+    background-size: 100%;
+    object-fit: contain;
     background-repeat: no-repeat;
 }
 .shadow-bottom {
@@ -183,7 +186,7 @@ body{
     padding: 92px 0 0 17px;
     align-self: center;
     width: 650px;
-    font-family:'Open Sans', sans-serif;
+    font-family:'Open Sans-light', sans-serif;
     font-size: 25px;
     font-weight: 300;
     font-style: normal;
@@ -221,7 +224,7 @@ body{
     padding: 0 0 48px 0;
 }
 .event1{
-    padding:0 0 12px 0;
+    padding:0 0 25px 0;
 }
 h5{
   padding-bottom: 40px;
@@ -251,6 +254,7 @@ h5{
 .program1 p:nth-child(2),.event1 p:nth-child(2){
     width: 427px;
     padding-bottom: 10px;
+    font-family: 'Open Sans-light', sans-serif;
 }
 .info-link{
         padding-bottom: 30px;
@@ -269,7 +273,7 @@ h5{
 .What-is-Blitzscaling {
     width: 977px;
     height: 43px;
-    font-family:'Open Sans', sans-serif;
+    font-family:'Open Sans-semi-bold', sans-serif;
     font-size: 40px;
     font-weight: 600;
     font-style: normal;
@@ -280,10 +284,11 @@ h5{
     color: #1e2631;
 }
 .Blitzscaling-is-what {
+    padding-top: 28px;
     margin: 0 auto;
     width: 736px;
     height: 96px;
-    font-family:'Open Sans', sans-serif;
+    font-family:'Open Sans-light', sans-serif;
     font-size: 22px;
     font-weight: 300;
     font-style: normal;
@@ -295,13 +300,14 @@ h5{
 }
 .why-Blitzscaling {
     align-self: center;
-    padding: 84px 0 57px 0;
+    padding: 84px 0 114px 0;
 }
 .du{
     display: inline-flex;
 }
 .duration{
     font-weight: bold;
+    font-family: 'Open Sans-light', sans-serif;
 }
 .program-btn{
     margin-top:35px;
@@ -334,7 +340,8 @@ h5{
    width: 100%;
 }
 .feature img{
-    width: 1440px;
+    width:100%;
+    object-fit: contain;
     align-self: center;
 }
 
@@ -432,15 +439,16 @@ h5{
     position: relative;
 }
 .work-bg{
-    width: 1440px;
+    width: 100%;
     clip-path: polygon(50% 0%, 100% 0, 100% 100%, 51% 95%, 0 90%, 0 0);
 }
 .work-title{
     position: absolute;
-    top: 60px;
+    top:0;
 }
 .Who-we-work-with {
-    padding-top: 24px;
+    padding-top: 120px;
+    padding-bottom: 24px;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -507,14 +515,14 @@ h5{
 /*form css*/
 .form-section{
     margin: -125px 0 0 0;
-    width: 1440px;
+    width: 100%;
     height: 900px;
     background-color: #0b3c5d;
     clip-path: polygon(50% 6%, 100% 13%, 100% 100%, 52% 100%, 0 100%, 0 0);
 }
 .form-details{
     display: flex;
-    padding: 0 220px 0 220px;
+    padding: 0 175px 0 180px;
 }
 .form-info,.form{
     padding-top: 150px;
@@ -524,7 +532,7 @@ h5{
     width: 545px;
     height: 32px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -534,10 +542,9 @@ h5{
 }
 .Bringing-blitz-speed {
     padding-top: 20px;
-    width: 548px;
-    height: 86px;
+    width: 482px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
@@ -548,10 +555,9 @@ h5{
 .FRI-March-16th-130P {
     padding-top: 20px;
     margin-bottom: 30px;
-    width: 545px;
-    height: 32px;
+    width: 482px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
@@ -563,9 +569,9 @@ h5{
     padding: 20px 0 20px 0;
     border-top: solid 2px #1f5473;
     border-bottom: solid 2px #1f5473;
-    width: 545px;
+    width: 482px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -574,7 +580,7 @@ h5{
     color: #ffffff;
 }
 .check{
-    width: 580px;
+    width: 482px;
     padding-top: 30px;
 }
 .form-info ul{
@@ -583,7 +589,7 @@ h5{
 .form-info li{
   padding: 20px 0 0 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -650,6 +656,9 @@ form{
     color: #ffffff;
 }
 /*brand css*/
+.brand-section{
+    width: 100%;
+}
 .brand-title{
   padding: 94px 270px 38px 270px;
   font-family:'Open Sans', sans-serif;
@@ -663,22 +672,23 @@ form{
   color: #1e2631;
 }
 .brand-logo{
-    padding: 0 110px 109px 110px;
+    padding: 0 128px 109px 130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .b-logo{
-    padding-right: 40px;
+    padding-right: 30px;
     padding-bottom: 55px;
     height: 60px;
 }
 .b-logo:nth-child(7),.b-logo:nth-child(8),.b-logo:nth-child(9),.b-logo:nth-child(10){
-    padding-right: 70px;
+    padding-right: 60px;
 }
 /*footer css*/
 .footer-section{
     height: 121px;
+    width: 100%;
 }
 .footer{
     display: flex;
@@ -724,7 +734,7 @@ form{
 }
 .footer-social{
     display: flex;
-    padding: 65px 0 0 24px;
+    padding: 65px 0 0 46px;
 }
 .social-media{
    padding-left: 15px;
@@ -737,7 +747,7 @@ form{
 
 /*MEDIA QUERIES*/
 
-@media (max-width:2560px) and (min-width:1441px){
+@media (max-width:2560px) and (min-width:1367px){
     body{
         max-width:1440px;
         margin: 0 auto;
@@ -752,15 +762,8 @@ form{
         margin: 0 auto;
         overflow-x: visible;
     }
-    .bg{
-        background-size: 1024px;
-    background-position-y: unset;
-    }
     .logo img{
         width: 215px;
-    }
-    .feature img,.work-bg {
-        width: 1024px;
     }
     .nav-bar {
         padding: 38px 26px 0 26px;
