@@ -26,7 +26,7 @@ body{
     padding: 28px 0 0 0;
 }
 .nav-bar{
-    padding: 38px 180px 0 110px;
+    padding: 38px 160px 0 110px;
     color: white;
 }
 .nav-bar ul{
@@ -167,6 +167,14 @@ body{
 .shadow-bottom {
     box-shadow: 0px 15px 10px -15px #111;    
   }
+.hr-line{
+    display: flex;
+}
+.hr-line hr{
+    transform: rotate(90deg);
+    margin-bottom: 25px;
+    margin-left: 128px;
+}
 .program{
     display: flex;
     flex-direction: column;
@@ -344,6 +352,12 @@ h5{
     object-fit: contain;
     align-self: center;
 }
+.feature img:nth-child(1){
+    display:block;
+}
+.feature img:nth-child(2){
+    display:none;
+}
 
 /*testomonial css*/
 .text-title{
@@ -442,12 +456,15 @@ h5{
     width: 100%;
     clip-path: polygon(50% 0%, 100% 0, 100% 100%, 51% 95%, 0 90%, 0 0);
 }
+.work-section img:nth-child(2){
+    display:none;
+}
 .work-title{
     position: absolute;
     top:0;
 }
 .Who-we-work-with {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 24px;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
@@ -472,7 +489,7 @@ h5{
     color: #f3f5f6;
 }
 .work-with{
-    padding: 100px 130px 0 150px;
+    padding: 100px 120px 0 150px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -623,7 +640,11 @@ form{
 .name{
     display: inline-flex;
 }
-.form input{
+.fname,.lname{
+    width: 210px;
+    height: 48px;
+}
+.form input:nth-child(2),.form input:nth-child(3),.form input:nth-child(4),.form input:nth-child(5),.form input:nth-child(6),.form input:nth-child(7){
   width: 420px;
   height: 48px;
   background-color: #ffffff;
@@ -713,7 +734,7 @@ form{
   color: #cccfda;
 }
 .policy{
-    padding: 75px 230px 33px 230px;
+    padding: 75px 220px 33px 230px;
 }
 .policy ul{
     display: flex;
@@ -756,6 +777,7 @@ form{
         padding: 0 578px 0 578px;
     }
 }
+
 @media (max-width:1024px){
     body{
         max-width:1024px;
@@ -766,9 +788,9 @@ form{
         width: 215px;
     }
     .nav-bar {
-        padding: 38px 26px 0 26px;
+        padding: 38px 75px 0 40px;
         color: white;
-    }
+    }/*  */
     .nav-bar ul>li {
         margin-right: 10px;
         font-size: 10px;
@@ -779,34 +801,34 @@ form{
         font-size: 14px;
     }
     .hero {
-        padding: 45px 450px 28px 120px;
+        padding: 100px 450px 155px 290px;
     }
     .top-intro {
-        margin-bottom: 8px;
+        margin-bottom: 5px;
         width: 472px;
         height: 32px;
-        font-size: 19px;
+        font-size: 12px;
     }
     .Main-title {
         margin-bottom: 10px;
-        width: 560px;
-        font-size: 45px;
+        width: 390px;
+        font-size: 35px;
     }
     .subtitle {
-        margin-bottom: 30px;
-        width: 530px;
-        font-size: 15px;
+        margin-bottom: 20px;
+        width: 375px;
+        font-size: 10px;
     }
     .cta-body {
-        margin-right: 40px;
-        width: 220px;
-        height: 51px;
-        font-size: 16px;
+    margin-right: 25px;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
     }
-    .cta-bodysolid {
-        width: 220px;
-        height: 51px;
-        font-size: 16px;
+    .cta-btn {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
     }
     .Programs-Events-fo {
         align-self: center;
@@ -836,7 +858,7 @@ form{
         padding: 0px 0 50px 0;
     }
     .event1 {
-        padding: 0px 0 28px 0;
+        padding: 0px 0 18px 0;
     }
     .blue-title {
         padding-bottom: 30px;
@@ -856,7 +878,7 @@ form{
     }
     .info-link {
         padding-bottom: 30px;
-        width: 200px;
+        width: 210px;
         height: 14px;
         font-size: 13px;
     }
@@ -901,7 +923,7 @@ form{
         font-size: 12px;
     }
     .Who-we-work-with {
-        padding-top: 15px;
+        padding-top: 40px;
         font-size: 25px;
     }
     .While-we-always-work {
@@ -926,5 +948,501 @@ form{
     .incubator div:nth-child(2) img, .capatalists div:nth-child(2) img, .inovations div:nth-child(2) img, .universities div:nth-child(2) img {
         height: 270px;
     }
+    .form-details {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 145px 0 145px;
+    }
+    .form-info, .form {
+        padding-top: 150px;
+        margin: 0 auto;
+    }
+    .webinar,.Bringing-blitz-speed,.FRI-March-16th-130P {
+        width:auto;
+        text-align: center;
+    }
+    .Got-a-question-Then,.check{
+        width:auto;
+        margin: 0 auto;
+    }
+    .form-section {
+        height: 1500px;
+        clip-path: polygon(50% 4%, 100% 8%, 100% 100%, 52% 100%, 0 100%, 0 0);
+    }
+    .name {
+        display: inline-flex;
+        width: 638px;
+    }
+    .fname,.lname{
+        width: 319px;
+    }
+    .form input:nth-child(2),.form input:nth-child(3),.form input:nth-child(4),.form input:nth-child(5),.form input:nth-child(6),.form input:nth-child(7) {
+        width: 638px;
+    }
+    .brand-title {
+        padding: 60px 270px 38px 270px;
+        font-size: 15px;
+    }
+    .brand-logo {
+        padding: 0px 20px 75px 20px;
+    }
+    .b-logo {
+        padding-right: 20px;
+    }
+    .b-logo:nth-child(7), .b-logo:nth-child(8), .b-logo:nth-child(9), .b-logo:nth-child(10) {
+        padding-right: 40px;
+    }
+    .footer-logo {
+        padding-top: 30px;
+    }
+    .policy {
+        padding: 70px 80px 33px 80px;
+    }
+    .policy li {
+        padding-right: 10px;
+        font-size: 11px;
+    }
+} 
 
+@media (max-width:768px){
+    body{
+        overflow-x:hidden;
+    }
+    .nav-bar ul{
+		width:50%;
+		position:absolute;
+		background:#328cc1;
+		height:80svh;
+		top:90px;
+		right:1%;
+		flex-wrap:wrap;
+		opacity:10; 
+		z-index: 1;
+	}
+	.nav-bar ul li {
+		display:block;
+		padding:20px;
+		width:100%;
+		text-align:center;
+	}
+    .mobile-trigger {
+		width:40px;
+		position: absolute;
+		height: 60px;
+		cursor: pointer;
+		right:40px;
+		top:40px;
+	}
+	.mobile-trigger  i{
+		width:40px;
+		position: absolute;
+		background-color:white;
+		height: 6px;
+		cursor: pointer;
+		display: block;
+	}
+	.mobile-trigger  i:before{
+		content: "";
+		width:40px;
+		position: absolute;
+		background-color:white;
+		height: 6px;
+		cursor: pointer;
+		display: block;
+		top:10px;
+	}
+	.mobile-trigger  i:after{
+		content: "";
+		width:40px;
+		position: absolute;
+		background-color:white;
+		height: 6px;
+		cursor: pointer;
+		display: block;
+		top:20px;
+	}
+	/****/
+	.mobile-trigger i.change {
+		background:transparent;
+	}  
+	.mobile-trigger i.change:before{
+	
+		background-color:white;
+		transform: translateY(4px) rotateZ(-45deg);
+	}
+	.mobile-trigger i.change:after{
+		background-color:white;
+		transform: translateY(-6px) rotate(45deg);
+    }
+    .nav-bar{
+        display: none;
+    }
+    .bg {
+        background: url(hp-hero-img-tablet.png) no-repeat;
+        background-size:100%;
+        height: 829px;
+        object-fit: contain;
+    }
+    .logo {
+        padding: 30px 0 0 0;
+    }
+    .logo img {
+        width: 203px;
+    }
+    .member-login button {
+        width: 121px;
+        font-size: 12px;
+    }
+    .member-login {
+        padding: 29px 0 0 330px;
+    }
+    .hero {
+        padding: 155px 64px 155px 64px;
+    }
+    .top-intro {
+        width: 640px;
+        height: 32px;
+        font-size: 18px;
+    }
+    .Main-title {
+        width: 441px;
+        height: 92px;
+        font-size: 40px;
+    }
+    .subtitle {
+        width: 420px;
+        height: 165px;
+        font-size: 18px;
+    }
+    .cta-body {
+        width: 187px;
+        height: 45px;
+        border: solid 1.4px #318bc0;
+        font-size: 14px;
+    }
+    .cta-btn{
+        width: 187px;
+        height: 45px;
+        background-color: #328cc1;
+        font-size: 14px;
+    }
+    .program-section{
+        background-image: url("programs-bg-tablet.png");
+        background-size: 100%;
+        object-fit: contain;
+        background-repeat: no-repeat;
+    }
+    .center {
+        align-self: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 640px;
+    }
+    .Programs-Events-fo {
+        width: 699px;
+        height: 90px;
+        font-size: 28px;
+        padding: 73px 0 90px 0;
+    }
+    .Put-yourself-on-the {
+        width: 640px;
+        height: 32px;
+        font-size: 18px;
+        padding: 0 0 43px 0;
+    }
+    .programs, .events {
+        width: 640px;
+        height: 690px;
+        padding: 58px 0 0 59px;
+    }
+    .What-is-Blitzscaling {
+        width: 640px;
+        height: 43px;
+        font-size: 28px;
+    }
+    .Blitzscaling-is-what {
+        width: 640px;
+        height: 96px;
+        font-size: 18px;
+    }
+    .feature img:nth-child(1){
+        display:none;
+    }
+    .feature img:nth-child(2){
+        display: block;
+    }
+     .test-title{
+         display: none;
+     }
+     .review2{
+         display: none;
+     }
+     .review1{
+         margin-right: 60px;
+     }
+     img.work-bg {
+        display: none;
+    }
+    .Who-we-work-with {
+        /* padding-top: 80px;
+        padding-bottom: 24px; */
+        width: 588.8px;
+        height: 43px;
+        font-size: 28px;
+    }
+    .While-we-always-work {
+        width: 640px;
+        height: 96px;
+        font-size:8px;
+    }
+    .work-with {
+        align-items: center;
+        align-self: center;
+        padding: 25px 70px 0 160px;
+    }
+    .form-details {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 40px 0 40px;
+    }
+    .brand-title {
+        padding: 60px 200px 38px 200px;
+        font-size: 14px;
+    }
+    .b-logo {
+        padding-right: 75px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 335px;
+        background-color: #1e2631;
+    }
+    .footer-social {
+        display: flex;
+        padding: 40px 0 0 0;
+    }
+}
+@media (max-width:320px){
+    body{
+        overflow-x:hidden;
+    }
+    .nav-bar ul{
+		width:50%;
+		position:absolute;
+		background:#328cc1;
+		height:80svh;
+		top:90px;
+		right:1%;
+		flex-wrap:wrap;
+		opacity:10; 
+		z-index: 1;
+	}
+	.nav-bar ul li {
+		display:block;
+		padding:20px;
+		width:100%;
+		text-align:center;
+	}
+    .mobile-trigger {
+		width:40px;
+		position: absolute;
+		height: 60px;
+		cursor: pointer;
+		right:40px;
+		top:40px;
+	}
+	.mobile-trigger  i{
+		width:40px;
+		position: absolute;
+		background-color:white;
+		height: 6px;
+		cursor: pointer;
+		display: block;
+	}
+	.mobile-trigger  i:before{
+		content: "";
+		width:40px;
+		position: absolute;
+		background-color:white;
+		height: 6px;
+		cursor: pointer;
+		display: block;
+		top:10px;
+	}
+	.mobile-trigger  i:after{
+		content: "";
+		width:40px;
+		position: absolute;
+		background-color:white;
+		height: 6px;
+		cursor: pointer;
+		display: block;
+		top:20px;
+	}
+	/****/
+	.mobile-trigger i.change {
+		background:transparent;
+	}  
+	.mobile-trigger i.change:before{
+	
+		background-color:white;
+		transform: translateY(4px) rotateZ(-45deg);
+	}
+	.mobile-trigger i.change:after{
+		background-color:white;
+		transform: translateY(-6px) rotate(45deg);
+    }
+    .nav-bar{
+        display: none;
+    }
+    .bg {
+        background: url(hp-hero-img-tablet.png) no-repeat;
+        background-size:100%;
+        height: 829px;
+        object-fit: contain;
+    }
+    .logo {
+        padding: 30px 0 0 0;
+    }
+    .logo img {
+        width: 203px;
+    }
+    .member-login button {
+        width: 121px;
+        font-size: 12px;
+    }
+    .member-login {
+        padding: 29px 0 0 330px;
+    }
+    .hero {
+        padding: 155px 64px 155px 64px;
+    }
+    .top-intro {
+        width: 640px;
+        height: 32px;
+        font-size: 18px;
+    }
+    .Main-title {
+        width: 441px;
+        height: 92px;
+        font-size: 40px;
+    }
+    .subtitle {
+        width: 420px;
+        height: 165px;
+        font-size: 18px;
+    }
+    .cta-body {
+        width: 187px;
+        height: 45px;
+        border: solid 1.4px #318bc0;
+        font-size: 14px;
+    }
+    .cta-btn{
+        width: 187px;
+        height: 45px;
+        background-color: #328cc1;
+        font-size: 14px;
+    }
+    .program-section{
+        background-image: url("programs-bg-tablet.png");
+        background-size: 100%;
+        object-fit: contain;
+        background-repeat: no-repeat;
+    }
+    .center {
+        align-self: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 640px;
+    }
+    .Programs-Events-fo {
+        width: 699px;
+        height: 90px;
+        font-size: 28px;
+        padding: 73px 0 90px 0;
+    }
+    .Put-yourself-on-the {
+        width: 640px;
+        height: 32px;
+        font-size: 18px;
+        padding: 0 0 43px 0;
+    }
+    .programs, .events {
+        width: 640px;
+        height: 690px;
+        padding: 58px 0 0 59px;
+    }
+    .What-is-Blitzscaling {
+        width: 640px;
+        height: 43px;
+        font-size: 28px;
+    }
+    .Blitzscaling-is-what {
+        width: 640px;
+        height: 96px;
+        font-size: 18px;
+    }
+    .feature img:nth-child(1){
+        display:none;
+    }
+    .feature img:nth-child(2){
+        display: block;
+    }
+     .test-title{
+         display: none;
+     }
+     .review2{
+         display: none;
+     }
+     .review1{
+         margin-right: 60px;
+     }
+     img.work-bg {
+        display: none;
+    }
+    .Who-we-work-with {
+        /* padding-top: 80px;
+        padding-bottom: 24px; */
+        width: 588.8px;
+        height: 43px;
+        font-size: 28px;
+    }
+    .While-we-always-work {
+        width: 640px;
+        height: 96px;
+        font-size:8px;
+    }
+    .work-with {
+        align-items: center;
+        align-self: center;
+        padding: 25px 70px 0 160px;
+    }
+    .form-details {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 40px 0 40px;
+    }
+    .brand-title {
+        padding: 60px 200px 38px 200px;
+        font-size: 14px;
+    }
+    .b-logo {
+        padding-right: 75px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 335px;
+        background-color: #1e2631;
+    }
+    .footer-social {
+        display: flex;
+        padding: 40px 0 0 0;
+    }
 }
